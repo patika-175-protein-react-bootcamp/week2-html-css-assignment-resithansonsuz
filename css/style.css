@@ -1,44 +1,29 @@
-<<<<<<< HEAD
 /* Tüm alana box-sizing özelliği vererek genişliği ve yüksekliği esnek hale getirdim margin padding değerlerinide sıfırladım. */
 
-=======
->>>>>>> bb63762eb56b2ed04c0dfd5657d64b09c966a516
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 /* arkaplan rengini siyah tonunda ve yazı boyutunuda ölçekledim */
-=======
->>>>>>> bb63762eb56b2ed04c0dfd5657d64b09c966a516
 html {
   font-size: 62.5%;
   background: #222222;
 }
-<<<<<<< HEAD
 /* idsi container olan div'i width height ölçeklendirilimesini yaptım */
-=======
-
->>>>>>> bb63762eb56b2ed04c0dfd5657d64b09c966a516
 #container {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
 }
-<<<<<<< HEAD
 /* margin-top'ı negative değer vererek resimi biraz yukarı kaydırdım */
-=======
-
->>>>>>> bb63762eb56b2ed04c0dfd5657d64b09c966a516
 header img {
   width: 100%;
   height: 100%;
   margin-top: -5%;
 }
-<<<<<<< HEAD
 
 #nav {
   display: flex;
@@ -59,32 +44,12 @@ header img {
 }
 /* display flex özelliği ile kapsayıcı alanın içindeki ögelere esneklik sağladım ve main-axis ve cross-axis de konumlandırma yaptım. */
 .card-elements {
-=======
-#nav {
-  display: flex;
-}
-#navImg {
-  width: 32%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -17.5%;
-}
-
-#content {
-  position: relative;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.card__items {
->>>>>>> bb63762eb56b2ed04c0dfd5657d64b09c966a516
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
-<<<<<<< HEAD
 /* her bir card elemanına border özelliği ile cizgiler verdim ve margin değerleri atadım */
 .card-element {
   margin: 2em 1em;
@@ -107,29 +72,6 @@ header img {
 }
 /* .card-element classlarımın içerisinde bulunan inline element olan span etiketlerimin içerisindeki yazıların özelliklerini tanımladım. */
 #content .card-element .card-element-text span {
-=======
-
-.card__item {
-  margin: 2em 1em;
-  border: 1px solid white;
-}
-
-.card__item__image {
-  margin-top: -20px;
-  padding-right: 17px;
-  padding-left: 17px;
-}
-
-.card__item__image img {
-  width: 100%;
-  max-width: 216px;
-  height: auto;
-  border-top: 1px solid white;
-  padding-top: 6px;
-}
-
-#content .card__item span {
->>>>>>> bb63762eb56b2ed04c0dfd5657d64b09c966a516
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -153,10 +95,7 @@ footer span {
   text-align: center;
   padding: 0 0.8em;
 }
-<<<<<<< HEAD
 /* asıl sayfa numarasını belirten kutunun yazı konum radius ve renk gibi özellikler atadım. */
-=======
->>>>>>> bb63762eb56b2ed04c0dfd5657d64b09c966a516
 .active {
   width: 60px;
   height: 30px;
